@@ -5,20 +5,20 @@
   },
   "main": {
     "menu": {
- 	  "home": "Home",
-	  "about": "About",
+ 	  "home": "HOME",
+	  "about": "ABOUT",
 	  "cv": "CV",
 	  "cvlink": "/data/CURRICULUMVITAE_EN.pdf",
-	  "contactMe": "Contact me"
+	  "contactMe": "CONTACT ME",
+	  "portfolio": "PORTFOLIO"
 	},
 	"title": {
 		"myLocation": "My location"
 	}
   },
   "home_page": { 
-	"p1": "Hello everyone! My name is Dmitry and I glade to see you in my private space of Internet! ;)",
-	"p2": "Here I will share with you some sort of information about me. And if you have any questions feel free to contact me.",
-    "p3": "By the way you could also find me in social networks. Check the bottom of the page."
+	"p1": "Hello everyone! My name is Dmitry and I glade to see you in my private space of Internet! ;) Here I will share with you some sort of information about me. Should you have any questions feel free to contact me.",
+	"p2": "By the way you could also find me in social networks. Check the bottom of the page."
   },
   "about_page": {
     "p1": "At first I had a big desire to write an outstanding autobiography but unfortunately after several unsuccessful attempts I gave up. But I decided to start with a small step and I am going add short stories about me from time to time. Please don't judge me too harshly it is my first attempt to tell about myself.(28.12.2015)",
@@ -27,9 +27,13 @@
 	"p4": ""
   },
   "contact_page": {
-	"p1": "Cell: +79186386457",
+    "p1": "Cell: +79186386457",
 	"p2": "Email: d.i.kolegov@gmail.com",
 	"p3": "Skype: dkolegov",
 	"p4": "Russia, city of Krasnodar"
+  },
+  "portfolio_page": {
+    "p1": "You could find my open projects on GitHub: https://github.com/dkolegov/. My code isn't protected by any license, so feel free to use it in your projects.",
+    "p2": ""
   }
 }

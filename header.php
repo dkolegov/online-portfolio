@@ -68,7 +68,8 @@
                 				  		 <a id="mhome" class="switcher" data-i18n="main.menu.home"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 				  		 <a id="mabout" class="switcher" data-i18n="main.menu.about"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 				  		 <a id="cvlinkid" href="/data/CURRICULUMVITAE_RU.pdf" type="application/pdf" target="_blank" data-i18n="main.menu.cv"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                				  		 <a id="mcontact" class="switcher" data-i18n="main.menu.contactMe"></a>
+                				  		 <a id="mcontact" class="switcher" data-i18n="main.menu.contactMe"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										 <a id="mportfolio" class="switcher" data-i18n="main.menu.portfolio"></a>
                 			 </div>
         			     </td>
 						 <td>
