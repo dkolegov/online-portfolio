@@ -5,11 +5,13 @@ body {
    letter-spacing: .01em;
    font: 15px/1.4 ProximaNovaRegular,Helvetica,sans-serif;
    color: #262829;
+   background-color: #D6D0CE;
    background-image: url('https://dl.dropboxusercontent.com/u/2292239/triple-screen-wallpaper-5.jpg');
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-position: right; 
 }
+
 .rounded { border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; -khtml-border-radius: 8px; }
 .item { padding:.5em; margin:0 0 1em; }
 .dark { background:#2a3333; }
@@ -17,7 +19,7 @@ body {
    width: 780px;
    min-width: 780px;
    min-height: 900px;
-   background: #F5F5F5;
+   background: rgba(255,255,255,1);
    text-align: left;
    margin: 20px auto;
    padding: 20px 50px;
@@ -28,6 +30,7 @@ body {
    vertical-align: baseline;
    outline: 0;
    display: block;
+   z-index: 11;
 }
 
 .profile-image {
@@ -65,7 +68,7 @@ body {
 }
 
 .main-menu {
-   width: 500px;
+   width: 570px;
    font-size: 12px;
    text-decoration: none;
    table-layout: fixed;
@@ -136,4 +139,11 @@ display: block;
 }
 #vk-link:hover {
    background-image: url('/img/social/Vk.png');
+}
+
+#parallax_mks {
+	top: 100px;
+	left: 40px;
+	position: absolute;
+	z-index: 10;
 }

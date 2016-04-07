@@ -1,9 +1,12 @@
 /* jQuery Content Panel Switcher JS */
 var jcps = {};
+/* var lastPanelSwitched was added to retranslate swithced panel by angular-translate plugin */
+var lastPanelSwitched;
 jcps.fader = function(speed, target, panel) {
 	jcps.show(target, panel);
     if (panel == null) {panel = ''};
 	$('.switcher' + panel).click(function() {
+		lastPanelSwitched = this;
 		var _contentId = '#' + $(this).attr('id') + '-content';
 		var _content = $(_contentId).html();
 		if (speed == 0) {
@@ -18,6 +21,7 @@ jcps.slider = function(speed, target, panel) {
 	jcps.show(target, panel);
     if (panel == null) {panel = ''};
 	$('.switcher' + panel).click(function() {
+		lastPanelSwitched = this;
 		var _contentId = '#' + $(this).attr('id') + '-content';
 		var _content = $(_contentId).html();
 		if (speed == 0) {
