@@ -22,8 +22,9 @@
 	}
   },
   "home_page": { 
-	"p1": "It is glade to see you in my private space of Internet! :) Here I will share with you some sort of information about me. Should you have any questions feel free to contact me, jumping to the CONTACT ME page and choosing a convenient method.",
-	"p2": "By the way you could also find me in social networks. Check the bottom of the page."
+	"p1": "It is glade to see you in my private space of Internet! :) Here I will share with you some information about me. Should you have any questions feel free to contact me, jumping to the CONTACT ME page and choosing a convenient method.",
+	"p2": "If you are looking for a experienced self-educating responsible Java Developer it is me. Check my CV (see menu above) and send me a proposal.",
+	"p3": "By the way you could also find me in social networks. Check the bottom of the page."
   },
   "about_page": {
     "p1": "At first I had a big desire to write an outstanding autobiography but unfortunately after several unsuccessful attempts I gave up.  Nevertheless I decided to start with a small step and I am going add short stories about me from time to time. Please don't judge me too harshly it is my first attempt to tell publicly about myself.",
@@ -32,7 +33,7 @@
 	"p4": ""
   },
   "contact_page": {
-    "p1": "<span style='font-weight:bold;'>Cell</span>: +79186386457",
+    "p1": "<span style='font-weight:bold;'>Cell</span>: +7 918 6386 457",
 	"p2": "<span style='font-weight:bold;'>Email</span>: d.i.kolegov@gmail.com",
 	"p3": "<span style='font-weight:bold;'>Skype</span>: dkolegov",
 	"p4": "<span style='font-weight:bold;'>My location</span>: Russia, city of Krasnodar"
