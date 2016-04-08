@@ -1,6 +1,8 @@
 {
   "my": {
+	"greeting": "Hi, my name is",
     "name": "KOLEGOV DMITRY",
+	"position": "and I am a Java EE developer.",
 	"copyright": "Kolegov Dmitry"
   },
   "main": {
@@ -20,9 +22,8 @@
 	}
   },
   "home_page": { 
-	"p1": "Hello everyone!",
-	"p2": "My name is Dmitry and I glade to see you in my private space of Internet! :) Here I will share with you some sort of information about me. Should you have any questions feel free to contact me, jumping to the CONTACT ME page and choosing a convenient method.",
-	"p3": "By the way you could also find me in social networks. Check the bottom of the page."
+	"p1": "It is glade to see you in my private space of Internet! :) Here I will share with you some sort of information about me. Should you have any questions feel free to contact me, jumping to the CONTACT ME page and choosing a convenient method.",
+	"p2": "By the way you could also find me in social networks. Check the bottom of the page."
   },
   "about_page": {
     "p1": "At first I had a big desire to write an outstanding autobiography but unfortunately after several unsuccessful attempts I gave up.  Nevertheless I decided to start with a small step and I am going add short stories about me from time to time. Please don't judge me too harshly it is my first attempt to tell publicly about myself.",
@@ -31,14 +32,14 @@
 	"p4": ""
   },
   "contact_page": {
-    "p1": "Cell: +79186386457",
-	"p2": "Email: d.i.kolegov@gmail.com",
-	"p3": "Skype: dkolegov",
-	"p4": "Russia, city of Krasnodar"
+    "p1": "<span style='font-weight:bold;'>Cell</span>: +79186386457",
+	"p2": "<span style='font-weight:bold;'>Email</span>: d.i.kolegov@gmail.com",
+	"p3": "<span style='font-weight:bold;'>Skype</span>: dkolegov",
+	"p4": "<span style='font-weight:bold;'>My location</span>: Russia, city of Krasnodar"
   },
   "portfolio_page": {
-    "p1": "You could find all my open projects on ",
-    "p2": ". This code isn't protected by any license so feel free to use it in your projects.",
+    "p1": "You could find all my open projects on <a id='githubdk' href='https://github.com/dkolegov/'>GitHub</a>. This code isn't protected by any license and if you will you can use it in your projects.",
+    "p2": "",
 	"p3": ""
   }
 }

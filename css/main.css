@@ -31,6 +31,7 @@ body {
    outline: 0;
    display: block;
    z-index: 11;
+   style: position:relative; ## FF fix
 }
 
 .profile-image {
@@ -47,7 +48,10 @@ body {
 
 .main-body {
    margin: 30px 30px;
-   text-indent:40px;
+   text-indent:10px;
+}
+.not_indent_text {
+	text-indent:0px;
 }
 
 .main-footer {
@@ -62,7 +66,7 @@ body {
 }
 
 .main-header {
-   padding-bottom: 42px;
+   padding-bottom: 30px;
    color: #333;
    font: 14px/1.6 "Lucida Grande", "helvetica neue",helvetica,arial,sans-serif;
 }
@@ -73,6 +77,7 @@ body {
    text-decoration: none;
    table-layout: fixed;
 }
+
 .main-menu a {text-decoration: none;}
 .main-menu a:link {color: rgb(0, 0, 0);}      /* unvisited link */
 .main-menu a:visited {color: rgb(0, 0, 0);}  /* visited link */
@@ -146,4 +151,11 @@ display: block;
 	left: 40px;
 	position: absolute;
 	z-index: 10;
+}
+.my_photo {
+	float:right;
+	width:250;
+	border:2px solid black;
+	border-radius:8px;
+	margin-left:30px;
 }

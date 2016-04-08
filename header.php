@@ -28,6 +28,10 @@
 				$('img').plaxify();
 				$.plax.enable();
 			}, 100);/**/
+			$("a").click(function () { 
+			  $("a").css("font-weight", "normal");
+			  $(this).css("font-weight", "bold");
+			});
 		});
 	</script>
 	<script src="js/angular.js"></script>
@@ -90,7 +94,7 @@
         			 <tr class='main-border-bottom'>
         				 <td>
                 			 <div id='main-menu' class='main-menu'>
-                				  		 <a id="mhome" class="switcher" translate="main.menu.home"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                				  		 <a id="mhome" class="switcher" style="font-weight:bold;" translate="main.menu.home"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 				  		 <a id="mabout" class="switcher" translate="main.menu.about"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 				  		 <a id="cvlinkid" href="{{'main.menu.cvlink' | translate}}" type="application/pdf" target="_blank" translate="main.menu.cv"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 				  		 <a id="mcontact" class="switcher" translate="main.menu.contactMe"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -112,11 +116,17 @@
     					</td>
         		     </tr>
     			 </table>
-			 </div>						 
+			 </div>
+			 <div id='main-greeting' class='main-title'>
+			 	  <span translate="my.greeting"></span>
+		     </div>			 
 			 <div id='main-title' class='main-title'>
-			 	  <span style="line-height: 1.4em;" class="font_name" translate="my.name"></span>
+			 	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="line-height: 1.4em;" class="font_name" translate="my.name"></span>
 		     </div>
-			 <div>
+			 <div id='main-position' class='main-title'>
+			 	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span translate="my.position"></span>
+		     </div>	
+			 <!--div>
 			 	    <?php $lines = file('phrases.txt');
 					echo $lines[array_rand($lines)]; ?>
-			 </div>
+			 </div-->
