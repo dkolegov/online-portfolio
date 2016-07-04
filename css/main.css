@@ -6,7 +6,7 @@ body {
    font: 15px/1.4 ProximaNovaRegular,Helvetica,sans-serif;
    color: #262829;
    background-color: #D6D0CE;
-   background-image: url('https://dl.dropboxusercontent.com/u/2292239/triple-screen-wallpaper-5.jpg');
+   background-image: url('https://dl.dropboxusercontent.com/u/2292239/triple-screen-wallpaper-5-2.jpg');
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-position: right; 
@@ -144,6 +144,17 @@ display: block;
 }
 #vk-link:hover {
    background-image: url('/img/social/Vk.png');
+}
+
+#github-link{
+   background-image: url('/img/social/github_bw.png');
+   display: block;
+   height: 36px;
+   width: 36px;
+}
+
+#github-link:hover {
+   background-image: url('/img/social/github.png');
 }
 
 #parallax_mks {

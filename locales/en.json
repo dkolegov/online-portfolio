@@ -10,7 +10,7 @@
  	  "home": "HOME",
 	  "about": "ABOUT",
 	  "cv": "CV",
-	  "cvlink": "/data/CURRICULUMVITAE_EN.pdf",
+	  "cvlink": "https://docs.google.com/document/d/1eVAsxPzCzr_BTHYZCWIlK49EepRtWhbme_51EWxxYNY/edit?usp=sharing",
 	  "contactMe": "CONTACT ME",
 	  "portfolio": "PORTFOLIO"
 	},
@@ -27,8 +27,8 @@
 	"p3": "By the way you could also find me in social networks. Check the bottom of the page."
   },
   "about_page": {
-    "p1": "At first I had a big desire to write an outstanding autobiography but unfortunately after several unsuccessful attempts I gave up.  Nevertheless I decided to start with a small step and I am going add short stories about me from time to time. Please don't judge me too harshly it is my first attempt to tell publicly about myself.",
-	"p2": "In the first place I would like to tell you about the main reason, which encouraged me to write these lines. In a nutshell I challenged myself. In my childhood studying at school I had difficulties in literature and humanities in the whole. Reading was not my thing in those days. The only exception was perhaps technical literature: math exercises, stories about math and etc. In junior classes in speed reading I always had D and besides I made many mistakes in writing. But in high school having matured and rethinked some aspects of the life I started to read more and more books and things have started to get better. Of course having finished school I didn't feel that I can write quite an understandable text. But last years at school I was passionate about reading and that was not bad at all. And now, many years later, when it's time to grow up I would like to try my skills at the art of writing.",
+    "p1": "At first I had a big desire to write an outstanding autobiography but unfortunately after several unsuccessful attempts I gave up.  Nevertheless I decided to start with a small step and I am going to add short stories about me from time to time. Please don't judge me too harshly it is my first attempt to tell publicly about myself.",
+	"p2": "In the first place I would like to tell you about the main reason, which encouraged me to write these lines. In a nutshell I challenged myself. In my childhood studying at school I had difficulties in literature and humanities in the whole. Reading was not my thing in those days. The only exception was perhaps technical literature: math exercises, stories about math and etc. In junior classes in speed reading I always had D and besides I made many mistakes in writing. But in high school having matured and rethinked some aspects of my life I started to read more and more books and things have started to get better. Of course having finished school I didn't feel that I can write a book but last years at school I was passionate about reading and that was not bad at all. And now, many years later, when it's time to grow up I would like to try my skills at the art of writing.",
     "p3": "",
 	"p4": ""
   },
@@ -39,7 +39,7 @@
 	"p4": "<span style='font-weight:bold;'>My location</span>: Russia, city of Krasnodar"
   },
   "portfolio_page": {
-    "p1": "You could find all my open projects on <a id='githubdk' href='https://github.com/dkolegov/'>GitHub</a>. This code isn't protected by any license and if you will you can use it in your projects.",
+    "p1": "You could find all my open projects on <a id='githubdk' target='_blank' href='https://github.com/dkolegov/'>GitHub</a>. This code isn't protected by any license and if you will you can use it in your projects.",
     "p2": "",
 	"p3": ""
   }

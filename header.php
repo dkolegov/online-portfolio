@@ -28,9 +28,11 @@
 				$('img').plaxify();
 				$.plax.enable();
 			}, 100);/**/
-			$("a").click(function () { 
-			  $("a").css("font-weight", "normal");
-			  $(this).css("font-weight", "bold");
+			$("a").click(function () {
+				if ($(this).context.innerText != "CV") {
+				  $("a").css("font-weight", "normal");
+				  $(this).css("font-weight", "bold");
+				}
 			});
 		});
 	</script>
